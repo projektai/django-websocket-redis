@@ -28,7 +28,7 @@ setup(
     author='Jacob Rief',
     author_email='jacob.rief@gmail.com',
     description=DESCRIPTION,
-    long_description=read('README.md'),
+    long_description=open('README.md', encoding='utf-8').read(),
     url='https://github.com/jrief/django-websocket-redis',
     license='MIT',
     keywords=['django', 'websocket', 'redis'],
